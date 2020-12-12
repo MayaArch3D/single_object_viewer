@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>MayaArch3D - Scene Viewer</title>
+		<link rel="stylesheet" href="lib/jquery-ui/css/custom-theme/jquery-ui-1.10.3.custom.min.css" />
+		<link rel="stylesheet" href="lib/jstree/themes/default/style.min.css" />
+		<link rel="stylesheet" href="css/ma3d.css" />
+		
+		<script src="lib/jquery-1.9.1/jquery-1.9.1.js"></script>
+		<script src="lib/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="lib/jstree/jstree.js"></script>
+
+		<script src="lib/THREE/r63/three.js"></script>
+		
+		<script src="lib/GIScene/GIScene_1.0.1dev1.js"></script>
+		
+		
+		<!-- <script src="lib/XHROverrideHack.js"></script> -->
+		
+		<script src="lib/MA3D_0.0.4dev1.js"></script>
+		<!-- <script src="lib/sceneViewer.js"></script> -->
+		<script type="text/javascript">
+			var sv = null;
+			var init = function() {
+				
+				sv = new MA3D.SceneViewer($('#sceneViewer').get(0));
+			};
+
+			window.onload = init;
+		</script>
+	</head>
+	<body>
+		<div id="sceneViewer">
+
+		</div>
+	</body>
+</html>

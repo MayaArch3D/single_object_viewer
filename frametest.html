@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#page{
+				width: 100%;
+				height:300px;
+				
+				 /* flexbox setup */
+				display: -webkit-flex;
+				-webkit-box-orient: horizontal;
+				-webkit-box-align:start;
+				
+				display: -moz-box;
+				-moz-box-orient: horizontal;
+				-moz-box-align:start;
+				
+				display: -ms-flexbox;
+				-ms-flex-direction: row;
+				-ms-flex-align:start;
+				
+				display: box;
+				box-orient: horizontal;
+				box-align:start;
+				
+				
+			}
+			
+			#items{
+				height:300px;
+				width:250px;
+				overflow: auto;
+			}
+			
+			#sov{
+				height:300px;
+				-moz-box-flex: 1;
+				-ms-flex: 1;
+				-webkit-flex: 1;
+				box-flex: 1;
+			}
+			
+			li {
+				list-style: none;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			
+			li:hover{
+				background-color: orange;
+			}
+			
+			li img {
+				width: 100px;
+				height: 100px;
+				border: 1px solid lightgrey;
+				
+			}
+			
+		</style>
+	</head>
+	<body id="frametest">
+	  <div id="page">
+	  	<div id="items">
+	  		<ul>
+	  			<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F1606_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>1606</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F1983_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>1983</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2010_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2010</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2256_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2256</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2317_100000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2317</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2563_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2563</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2616_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2616</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2630_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2630</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2740_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2740</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F2741_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>2741</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2Fdecoration1_300000p_003_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>decoration 1</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2Fdecoration2_300000p_001_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>decoration 2</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2Fdecoration3_300000p_002_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>decoration 3</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2FEstella11_300000p_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>Stela 11</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2FC1_300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>C1</div></a></li>
+				<li><a target="sov" href="http://www.mayaarch3d.org/dev/ldaptest/singleObjectViewer/sov.html?url=http%3A%2F%2Fwww.mayaarch3d.org%2Fprotected%2Fmodels%2Fcria%2F007__300000p_tx_r.json&format=json"><div><img src="lib/resources/images/GIScene-logo.png"/></div><div>007</div></a></li>
+	  		</ul>	
+	  	</div>
+	  	<iframe id="sov" name="sov"></iframe>
+	  </div>
+	</body>
+</html>

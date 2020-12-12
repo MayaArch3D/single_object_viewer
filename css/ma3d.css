@@ -1,0 +1,363 @@
+/*jquery-ui override*/
+.ui-button-text-only .ui-button-text{
+	padding: 0.4em 0.9em;
+}
+
+.ma3d-sv-container, .ma3d-sov-container {
+	background-color: #777777;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.ma3d-toolbar {
+	background-color: #B3B3B3;
+	border: 1px solid lightgrey;
+	bottom: 5px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 240px;
+	overflow: auto;
+	/*border-radius: 10px 10px 10px 10px;*/
+}
+
+.ma3d-canvascontainer {
+	border: 1px solid lightgrey;
+	bottom: 5px;
+	left: 5px;
+	position: absolute;
+	right: 255px;
+	top: 5px;
+	/*border-radius: 10px 10px 10px 10px;*/
+}
+
+.ma3d-accordion-item-header {
+
+	border-bottom: 1px solid #555555;
+	color: #FFFFFF;
+	font: 11px sans-serif;
+	padding: 5px 5px 5px 20px;
+	cursor: pointer;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.ma3d-accordion-item-header.closed {
+	background: url("images/opener_closed.png") no-repeat scroll 0 50% #657487;
+}
+
+.ma3d-accordion-item-header.opened {
+	background: url("images/opener_opened.png") no-repeat scroll 0 50% #657487;
+}
+
+.ma3d-accordion-item-content {
+	/*height: 50px;*/
+	border-bottom: 1px solid #D3D3D3;
+	padding: 10px;
+}
+
+.ma3d-tool-container, .sovToolContainer{
+	/*margin: 5px 0 0 0px;*/
+}
+
+.ma3d-tool-container.indent{
+	margin-left: 5px;
+}
+
+.ma3d-button {
+	margin-bottom: 1px;
+}
+
+.ma3d-button-icon-only > .ui-button-text{
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 19px auto;
+}
+
+.ma3d-button-text-only > .ui-button-text{
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 19px auto;
+}
+
+.ma3d-button-icon-text > .ui-button-text{
+	background-position: 2px center;
+    background-repeat: no-repeat;
+    background-size: 19px auto;
+    padding-left: 24px;
+}
+
+.ma3d-navigation-toolbar-help {
+	float: right;
+}
+.ma3d-navigation-toolbar-help > .ui-button-text {
+	 background-image: url('images/help.png') !important; 
+}
+
+.ma3d-view-toolbar-fullscreen > .ui-button-text{
+	background-image: url('images/fullscreen.png') !important;
+}
+
+.ma3d-view-toolbar-setviewfromtop > .ui-button-text {
+	background-image: url('images/view_from/top.png') !important;
+	background-size: 32px auto;
+    height: 100%;
+    padding: 0; 
+}
+
+.ma3d-view-toolbar-setviewfromleft > .ui-button-text {
+	background-image: url('images/view_from/left.png') !important;
+	background-size: 32px auto;
+    height: 100%;
+    padding: 0; 
+}
+
+.ma3d-view-toolbar-setviewfromfront > .ui-button-text {
+	background-image: url('images/view_from/front.png') !important;
+	background-size: 32px auto;
+    height: 100%;
+    padding: 0; 
+}
+
+.ma3d-view-toolbar-setviewfromright > .ui-button-text {
+	background-image: url('images/view_from/right.png') !important;
+	background-size: 32px auto;
+    height: 100%;
+    padding: 0; 
+}
+
+.ma3d-view-toolbar-setviewfromback > .ui-button-text {
+	background-image: url('images/view_from/back.png') !important;
+	background-size: 32px auto;
+    height: 100%;
+    padding: 0; 
+}
+
+.ma3d-view-toolbar-setviewfrombottom > .ui-button-text {
+	background-image: url('images/view_from/bottom.png') !important;
+	background-size: 32px auto;
+    height: 100%;
+    padding: 0; 
+}
+
+.ma3d-tools-toolbar-lamp > .ui-button-text{
+	background-image: url('images/lamp.png') !important;
+}
+
+.ma3d-tools-toolbar-info > .ui-button-text{
+	background-image: url('images/info.png') !important;
+}
+
+.ma3d-tools-toolbar-select > .ui-button-text{
+	background-image: url('images/select.png') !important;
+}
+
+.ma3d-tools-toolbar-unselect > .ui-button-text{
+	background-image: url('images/unselect.png') !important;
+}
+
+.ma3d-tools-toolbar-pick > .ui-button-text{
+	background-image: url('images/cross.png') !important;
+}
+
+.ma3d-tools-toolbar-measure > .ui-button-text{
+	background-image: url('images/measure.png') !important;
+}
+
+.ma3d-tools-toolbar-screenshot > .ui-button-text{
+	background-image: url('images/photo.png') !important;
+}
+
+.jstree {
+	overflow: auto;
+}
+
+.ma3d-layertree-container {
+	background-color: white;
+}
+
+.ma3d-layertree-toolbar-container {
+	background-color: #F0F0F0;
+    margin-top: 1px;
+    outline: 1px outset #F0F0F0;
+    padding: 4px;
+}
+
+button.ui-button-icon-only {
+	width: 24px;
+	height: 24px;
+}
+
+.ma3d-layertree-toolbar-setvisibility{
+	 background-image: url('images/layertree/layer-toggle2.png') !important;
+	 background-size: 16px auto;
+}
+
+.ma3d-layertree-toolbar-removelayer{
+	 background-image: url('images/layertree/delete.gif') !important;
+	 background-size: 16px auto;
+}
+
+.ma3d-layertree-toolbar-showattributetable{
+	 background-image: url('images/layertree/table.png') !important;
+	 background-size: 16px auto;
+}
+
+/* table styling of AnalysisDialog.js */
+.ma3d-analysisDialog-table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 11px;
+}
+
+.ma3d-analysisDialog-table tr:nth-of-type(odd) {
+	background-color: silver;
+}
+
+.ma3d-analysisDialog-table td {
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+.ma3d-analysisDialog-table td:first-child {
+	font-weight: bold;
+	width: 38.2%;
+	vertical-align: top;
+}
+
+.ma3d-analysisDialog-form {
+	text-align: right;
+}
+
+.ma3d-analysisDialog-textfieldContainer {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.ma3d-analysisDialog-label{
+	flex: 0 1 100px;
+	text-align: right;
+	font-weight: bold;
+    margin-right: 5px;
+    align-self: center;
+}
+
+.ma3d-analysisDialog-textfield{
+	flex: 1 4 auto;
+	background-color: #FCEFA1;
+	min-height: 2em;
+	/*height: 2em;*/
+	/*line-height: 2em;*/
+}
+
+.ma3d-analysisDialog-textfield:focus{
+	background-color: #ffe766;
+}
+
+.ma3d-progressbar {
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.ma3d-progressbar-label {
+	position:absolute;
+	top: 4px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+	left:0;
+	right:0;
+}
+
+/* ******* */
+/* Ported from singleObjectViewer.css */
+/* ******* */
+
+/* Select Segmented Model*/
+/*.ma3d-segmentslist{*/
+.ma3d-selectsegmented-segmentslist{	
+	padding-left: 0.7em;
+	font-size: larger;
+	margin: 5px 0 0 0;
+}
+
+.ma3d-selectsegmented-segmentslist>li {
+    background-image: url("images/select_segment/node.svg"), url("images/select_segment/edge_middle.svg");
+    background-position: 0 0.2em, 0 top;
+    background-repeat: no-repeat, repeat-y;
+    background-size: 1em auto;
+    background-color: #c6d2e2;
+    list-style: none outside none;
+    padding-left: 1.3em;
+    padding-bottom: 0.5em;
+    cursor: pointer;
+    border: 2px outset #c6d2e2;
+    border-radius: 5px;
+}
+
+.ma3d-selectsegmented-segmentslist>li:first-of-type {
+    /*background-image: url("images/select_segment/node.svg"), url("images/select_segment/edge_middle.svg");*/
+    background-position: 0 top, 0 top;
+    /*background-repeat: no-repeat, repeat-y;*/
+}
+
+.ma3d-selectsegmented-segmentslist>li:last-of-type {
+    /*background-image: url("images/select_segment/node.svg"), url("images/select_segment/edge_bottom.svg");*/
+    background-repeat: no-repeat, no-repeat;
+}
+
+.ma3d-selectsegmented-segmentslist>li:hover, .selected{
+	background-image: url("images/select_segment/node_hover.svg"), url("images/select_segment/edge_middle.svg");
+	outline: 1px outset #D3D3D3;
+}
+
+/*div.sovSelectSegmentedShort {*/
+div.ma3d-selectsegmented-shortattributes {
+	font-size: smaller;
+	font-weight: normal;
+	cursor: default;
+}
+
+div.ma3d-selectsegmented-shortattributes tr:hover {
+	background-color: #DADADA;
+}
+
+div.ma3d-selectsegmented-shortattributes h4 {
+    margin-bottom: 0.3em;
+}
+
+button.ma3d-selectsegmented-more {
+	display: block;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: medium none;
+	color: #0000FF;
+	padding: 0;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*.sovAttributeWindow tr:hover {*/
+.ma3d-attributewindow tr:hover {
+	background-color: #d3d3d3;
+}
+
+.ma3d-attributewindow td {
+	vertical-align: top;
+}
+
+.ma3d-attributewindow td:first-of-type {
+	font-weight: bold;
+}
+
+.ma3d-loading {
+	height: 32px;
+	background-image: url('images/maya-spinner.gif');
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>MayaArch3D - Single Object Viewer</title>
+		<link rel="stylesheet" href="lib/jquery-ui/css/custom-theme/jquery-ui-1.10.3.custom.min.css" />
+		<!-- <link rel="stylesheet" href="css/singleObjectViewer.css" /> -->
+		<link rel="stylesheet" href="css/ma3d.css" />
+		
+		<script src="lib/jquery-1.9.1/jquery-1.9.1.js"></script>
+		<script src="lib/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+
+		<script src="lib/THREE/r63/three.js"></script>
+		
+		<script src="lib/GIScene/GIScene_1.0.1dev1.js"></script>
+		
+		<!-- <script src="lib/XHROverrideHack.js"></script> -->
+		
+		<script src="lib/MA3D_0.0.4dev1.js"></script>
+		<!-- <script src="lib/singleObjectViewer.js"></script> -->
+		<script type="text/javascript">
+			var sov;
+			var init = function() {
+				//new singleObjectViewer($('#viewer').get(0),'http://129.206.228.98/dev/examples/data/models/2317_50000p_tx.json','json','y');
+				sov = new MA3D.singleObjectViewer($('#viewer').get(0));
+			};
+
+			window.onload = init;
+		</script>
+	</head>
+	<body>
+		<div id="viewer">
+
+		</div>
+	</body>
+</html>
