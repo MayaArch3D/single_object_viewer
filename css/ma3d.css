@@ -1,5 +1,5 @@
 /*jquery-ui override*/
-.ui-button-text-only .ui-button-text{
+.ui-button-text-only {
 	padding: 0.4em 0.9em;
 }
 
@@ -72,103 +72,100 @@
 	margin-bottom: 1px;
 }
 
-.ma3d-button-icon-only > .ui-button-text{
-	background-position: center center;
-    background-repeat: no-repeat;
+.ma3d-button-icon-only {
+	background-position: center center !important;
+    background-repeat: no-repeat !important;
     background-size: 19px auto;
 }
 
-.ma3d-button-text-only > .ui-button-text{
+.ma3d-button-text-only {
 	background-position: center center;
-    background-repeat: no-repeat;
     background-size: 19px auto;
 }
 
-.ma3d-button-icon-text > .ui-button-text{
-	background-position: 2px center;
-    background-repeat: no-repeat;
+.ma3d-button-icon-text {
+	background-position: 2px center !important;
+    background-repeat: no-repeat !important;
     background-size: 19px auto;
     padding-left: 24px;
 }
 
 .ma3d-navigation-toolbar-help {
+	background-image: url('images/help.png') !important;
 	float: right;
 }
-.ma3d-navigation-toolbar-help > .ui-button-text {
-	 background-image: url('images/help.png') !important; 
-}
 
-.ma3d-view-toolbar-fullscreen > .ui-button-text{
+.ma3d-view-toolbar-fullscreen {
 	background-image: url('images/fullscreen.png') !important;
 }
 
-.ma3d-view-toolbar-setviewfromtop > .ui-button-text {
+.ma3d-view-toolbar-setviewfromtop {
 	background-image: url('images/view_from/top.png') !important;
 	background-size: 32px auto;
     height: 100%;
-    padding: 0; 
+    padding: 0;
 }
 
-.ma3d-view-toolbar-setviewfromleft > .ui-button-text {
+.ma3d-view-toolbar-setviewfromleft {
 	background-image: url('images/view_from/left.png') !important;
 	background-size: 32px auto;
     height: 100%;
     padding: 0; 
 }
 
-.ma3d-view-toolbar-setviewfromfront > .ui-button-text {
+.ma3d-view-toolbar-setviewfromfront {
 	background-image: url('images/view_from/front.png') !important;
 	background-size: 32px auto;
     height: 100%;
     padding: 0; 
 }
 
-.ma3d-view-toolbar-setviewfromright > .ui-button-text {
+.ma3d-view-toolbar-setviewfromright {
 	background-image: url('images/view_from/right.png') !important;
 	background-size: 32px auto;
     height: 100%;
     padding: 0; 
 }
 
-.ma3d-view-toolbar-setviewfromback > .ui-button-text {
+.ma3d-view-toolbar-setviewfromback {
 	background-image: url('images/view_from/back.png') !important;
 	background-size: 32px auto;
     height: 100%;
     padding: 0; 
 }
 
-.ma3d-view-toolbar-setviewfrombottom > .ui-button-text {
+.ma3d-view-toolbar-setviewfrombottom {
 	background-image: url('images/view_from/bottom.png') !important;
 	background-size: 32px auto;
     height: 100%;
     padding: 0; 
 }
 
-.ma3d-tools-toolbar-lamp > .ui-button-text{
+.ma3d-tools-toolbar-lamp {
 	background-image: url('images/lamp.png') !important;
 }
 
-.ma3d-tools-toolbar-info > .ui-button-text{
+.ma3d-tools-toolbar-info {
 	background-image: url('images/info.png') !important;
 }
 
-.ma3d-tools-toolbar-select > .ui-button-text{
+.ma3d-tools-toolbar-select {
 	background-image: url('images/select.png') !important;
 }
 
-.ma3d-tools-toolbar-unselect > .ui-button-text{
+.ma3d-tools-toolbar-unselect {
 	background-image: url('images/unselect.png') !important;
 }
 
-.ma3d-tools-toolbar-pick > .ui-button-text{
+.ma3d-tools-toolbar-pick {
 	background-image: url('images/cross.png') !important;
 }
 
-.ma3d-tools-toolbar-measure > .ui-button-text{
+.ma3d-tools-toolbar-measure {
 	background-image: url('images/measure.png') !important;
 }
 
-.ma3d-tools-toolbar-screenshot > .ui-button-text{
+.ma3d-tools-toolbar-screenshot {
 	background-image: url('images/photo.png') !important;
 }
 
