@@ -1,4 +1,4 @@
-/*jquery-ui override*/
+/* jquery-ui overrides */
 .ui-button-text-only {
 	padding: 0.4em 0.9em;
 }
@@ -21,7 +21,6 @@
 	top: 5px;
 	width: 240px;
 	overflow: auto;
-	/*border-radius: 10px 10px 10px 10px;*/
 }
 
 .ma3d-canvascontainer {
@@ -31,7 +30,6 @@
 	position: absolute;
 	right: 255px;
 	top: 5px;
-	/*border-radius: 10px 10px 10px 10px;*/
 }
 
 .ma3d-accordion-item-header {
@@ -55,13 +53,8 @@
 }
 
 .ma3d-accordion-item-content {
-	/*height: 50px;*/
 	border-bottom: 1px solid #D3D3D3;
 	padding: 10px;
-}
-
-.ma3d-tool-container, .sovToolContainer{
-	/*margin: 5px 0 0 0px;*/
 }
 
 .ma3d-tool-container.indent{
@@ -247,8 +240,6 @@ button.ui-button-icon-only {
 	flex: 1 4 auto;
 	background-color: #FCEFA1;
 	min-height: 2em;
-	/*height: 2em;*/
-	/*line-height: 2em;*/
 }
 
 .ma3d-analysisDialog-textfield:focus{
@@ -278,7 +269,6 @@ button.ui-button-icon-only {
 /* ******* */
 
 /* Select Segmented Model*/
-/*.ma3d-segmentslist{*/
 .ma3d-selectsegmented-segmentslist{	
 	padding-left: 0.7em;
 	font-size: larger;
@@ -300,13 +290,10 @@ button.ui-button-icon-only {
 }
 
 .ma3d-selectsegmented-segmentslist>li:first-of-type {
-    /*background-image: url("images/select_segment/node.svg"), url("images/select_segment/edge_middle.svg");*/
     background-position: 0 top, 0 top;
-    /*background-repeat: no-repeat, repeat-y;*/
 }
 
 .ma3d-selectsegmented-segmentslist>li:last-of-type {
-    /*background-image: url("images/select_segment/node.svg"), url("images/select_segment/edge_bottom.svg");*/
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -315,7 +302,6 @@ button.ui-button-icon-only {
 	outline: 1px outset #D3D3D3;
 }
 
-/*div.sovSelectSegmentedShort {*/
 div.ma3d-selectsegmented-shortattributes {
 	font-size: smaller;
 	font-weight: normal;
@@ -340,7 +326,6 @@ button.ma3d-selectsegmented-more {
 	cursor: pointer;
 }
 
-/*.sovAttributeWindow tr:hover {*/
 .ma3d-attributewindow tr:hover {
 	background-color: #d3d3d3;
 }
